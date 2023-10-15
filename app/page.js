@@ -1,5 +1,6 @@
 import Feed from "@components/Feed";
 
+export const revalidate = 1;
 const Home = () => (
   <section className='w-full flex-center flex-col'>
     <h1 className='head_text text-center'>
